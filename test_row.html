@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>판매관리</title>
+    <link   href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/test.css" rel="stylesheet">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+	
+	
+	
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+   <div class="container-fluid">
+      <a class="navbar-brand" href="#">제목 부분</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+	data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+	aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                … 
+     <li class="nav-item">
+    <a class="nav-link" href="#">회원</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="#">제품</a>
+</li>
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+           role="button" data-bs-toggle="dropdown" aria-expanded="false">  
+         콤보상자 메뉴이름
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="#">하위메뉴1</a></li>
+        <li><a class="dropdown-item" href="#">하위메뉴2</a></li>
+        <li><a class="dropdown-item" href="#">하위메뉴3</a></li>
+    </ul>
+</li>
+
+
+                … 
+         </ul>
+      </div>
+<a href="#" class="btn btn-sm btn-outline-secondary btn-dark">Goto Shop</a>
+  
+</nav>
+
+<br>
+<div class="alert  mycolor1" role="alert">사용자</div>
+
+<form name="form1" method="post" action="">
+
+<table class="table table-bordered table-sm mymargin5">
+
+<tr>
+        <td width="20%" class="mycolor2"> 번호</td>
+        <td width="80%" align="left">1</td>
+    </tr>
+
+
+<tr>
+        <td class="mycolor2"><font color="red">*</font> 이름</td>
+        <td align="left">
+            <div class="d-inline-flex">
+                <input  type="컨트롤종류" name="필드이름" value="관리자"
+                         class="form-control form-control-sm" style="width:200px;" >
+            </div>
+        </td>
+    </tr>
+
+
+<tr>
+        <td class="mycolor2"><font color="red">*</font> 아이디</td>
+        <td align="left">
+            <div class="d-inline-flex">
+                <input  type="컨트롤종류" name="필드이름" value="admin"
+                         class="form-control form-control-sm" style="width:200px;" >
+            </div>
+        </td>
+    </tr>
+
+<tr>
+        <td class="mycolor2"><font color="red">*</font> 암호</td>
+        <td align="left">
+            <div class="d-inline-flex">
+                <input type="password" value="1234"
+                         class="form-control form-control-sm" style="width:200px;" >
+            </div>
+        </td>
+    </tr>
+<tr>
+<td class="mycolor2">전화</td>
+
+<td align="left">
+
+<div class="d-inline-flex">
+
+<input type="text" value="010"
+class="form-control form-control-sm me-1" style="width:70px;">
+
+<span class="me-1">-</span>
+
+<input type="text" value="1111"
+class="form-control form-control-sm me-1" style="width:70px;">
+
+<span class="me-1">-</span>
+
+<input type="text" value="1111"
+class="form-control form-control-sm" style="width:70px;">
+
+</div>
+
+</td>
+</tr>
+
+<tr>
+<td class="mycolor2">등급</td>
+
+<td align="left">
+
+<div class="d-inline-flex">
+
+<div class="form-check me-3">
+<input class="form-check-input" type="radio" name="level" value="1">
+<label class="form-check-label">직원</label>
+</div>
+
+<div class="form-check">
+<input class="form-check-input" type="radio" name="level" value="2" checked>
+<label class="form-check-label">관리자</label>
+</div>
+
+</div>
+
+</td>
+</tr>
+
+</table>
+
+<div class="mt-3 text-center">
+<button type="button" class="btn btn-primary">수정</button>
+<button type="button" class="btn btn-primary">삭제</button>
+<button type="button" class="btn btn-primary">저장</button>
+<button type="button" class="btn btn-primary">이전화면</button>
+
+
+</form>
+
+    </div>
+</body>
+</html>
